@@ -641,3 +641,37 @@ p {
   background-color: var(--color-white);
   fill: var(--color-orange);
 }
+.section-title {
+  flex-grow: 1;
+
+  background-position: center;
+  background-size: cover;
+  perspective: 500px;
+}
+.wrap-text-hero {
+  animation: shake-horizontal 8s cubic-bezier(0.455, 0.03, 0.515, 0.955) 4s
+    infinite both;
+}
+@keyframes shake-horizontal {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  2%,
+  6%,
+  10%,
+  14% {
+    transform: translateX(-10px);
+  }
+  4%,
+  8%,
+  12% {
+    transform: translateX(10px);
+  }
+  16% {
+    transform: translateX(8px);
+  }
+  18% {
+    transform: translateX(-8px);
+  }
+}
