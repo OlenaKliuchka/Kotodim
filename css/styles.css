@@ -434,10 +434,13 @@ p {
   height: 100%;
   position: relative;
 }
+.wrapper-hero {
+  position: relative;
+}
 
 .hero-btn {
   position: absolute;
-  top: 50%;
+  top: 45%;
 
   display: flex;
   justify-content: center;
